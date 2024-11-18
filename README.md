@@ -2,29 +2,6 @@
 
 Một dự án mẫu về Clean Architecture trong Flutter, sử dụng REST API và các design patterns phổ biến.
 
-## Cấu trúc Project
-lib/
-├── core/
-│   ├── error/
-│   │   ├── exceptions.dart
-│   │   └── failures.dart
-│   └── network/
-│       ├── network_info.dart
-│       └── dio_client.dart
-├── data/
-│   ├── data_sources/
-│   │   └── post_remote_data_source.dart
-│   └── models/
-│       └── post_model.dart
-├── repositories/
-│   ├── post_repository.dart
-│   └── post_repository_impl.dart
-├── presentation/
-│   ├── bloc/
-│   │   └── post/
-│   └── pages/
-└── main.dart
-
 ## Các tính năng
 
 - ✅ Clean Architecture
@@ -48,7 +25,7 @@ lib/
 
 1. Clone project
 ```bash
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/Cat1m/dart_z.git
 
 Cài đặt dependencies
 flutter pub get
